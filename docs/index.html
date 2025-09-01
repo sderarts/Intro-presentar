@@ -1,1 +1,115 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentaciones - Club Informático Chile</title>
+    <!-- Agregar Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            border-bottom: 2px solid #00ff99;
+        }
+        header h1 {
+            color: #00ff99;
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 15px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .intro p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+        .presentaciones {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 255, 153, 0.2);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #00ff99;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #00ff99;
+            font-size: 1.5rem;
+        }
+        .links a:hover {
+            color: #ffffff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #333;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>👾 Presentaciones del Club Informático Chile</h1>
+</header>
+
+<div class="container">
+    <div class="intro">
+        <p>¡Bienvenido! Aquí puedes conocer a los miembros del club. Si eres
+          nuevo, y quieres aparecer en esta web debes contribuir al siguiente repositorio:</p>
+        <div class="links">
+          <a
+            href="https://github.com/Club-Informatico/Intro-presentar"
+            target="_blank"
+            >Github: Intro-presentar</a>
+        </div>
+    </div>
+
+    <div class="presentaciones">
+        <!-- Ejemplo de presentación -->
+        <div class="card">
+            <h3>Carlos Carrasco</h3>
+            <p>Desarrollador backend apasionado por Python, GitHub y tecnologías libres.</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/mg-carlos-carrasco/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/KrlitosForever" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <!-- Aquí los demás miembros agregarán su bloque -->
+
+        <!-- Aquí los demás miembros agregarán su bloque -->
+
+        <!-- Aquí los demás miembros agregarán su bloque -->
+
+        <!-- Aquí los demás miembros agregarán su bloque -->
+    </div>
+</div>
+
+<footer>
+    Club Informático Chile - Código abierto y colaborativo 💻
+</footer>
+
+</body>
