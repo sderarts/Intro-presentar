@@ -63,15 +63,24 @@ git push origin main
 ### 5. Crea un Pull Request
 Vuelve a este repositorio original y crea un Pull Request para que revisemos y unamos tu cambio.
 
-### ✅ ¿Qué debes considerar?
+## ✅ ¿Qué debes considerar?
 ✔ Respeta el formato propuesto.   
 ✔ Usa íconos de LinkedIn y GitHub (ya están en la plantilla con Font Awesome).   
 ✔ No elimines ni modifiques otras presentaciones.   
 ✔ Sé breve, máximo 2-3 líneas en tu reseña.   
 
-### 🎯 ¿Quieres contribuir más?
+## ❓ ¿Tienes dudas?
+Ve a la sección de Discussions ahí encontraras los siguientes foros:   
+✔️ General   
+✔️ Ideas   
+✔️ Preguntas y Respuestas   
+
+## 🎯 ¿Quieres contribuir más?
 
 ¡Perfecto! Puedes:
 * Mejorar el diseño con CSS.
 * Agregar soporte para fotos de perfil.
 * Crear un formulario dinámico para generar el bloque HTML automáticamente.
+
+## 🎉Ya eres parte del club 🎉
+Puedes revisarte en el siguiente [Link](https://club-informatico.github.io/Intro-presentar/)
